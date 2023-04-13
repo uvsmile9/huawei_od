@@ -29,7 +29,7 @@ while True:
                     res.append('7')
                 elif i in 'tuv':
                     res.append('8')
-                elif i in 'wxyz':
+                else:
                     res.append('9')
         print(''.join(res))
     except:
